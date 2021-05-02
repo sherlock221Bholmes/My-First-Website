@@ -201,8 +201,8 @@ background: rgba(0, 0, 0, 0.842);
 }
 #taglin{padding-left: 20px;
   margin-top: 18px;
-  font-size:medium;
-  font-weight: bold ;
+  font-size:large;
+  font-weight: bolder ;
   font-stretch: expanded;
  color: rgb(243, 245, 253);
 display:inline-flex;
