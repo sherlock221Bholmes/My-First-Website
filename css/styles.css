@@ -443,7 +443,11 @@ color:white;}
   color: #FFFFFF; 
 } 
 
-
+#about-us p{background:indianred;
+color:honeydew;
+font-size: medium;
+margin-left: 15px;
+}
 #contact-us {
   background:black;
   color: whitesmoke;
