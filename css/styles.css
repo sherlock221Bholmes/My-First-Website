@@ -270,14 +270,14 @@ background: url("../images/banner/choice3.jpg");
 background-size: cover;
 text-align: center;
 }
-#hero-banner h2 {
+#hero-banner h2 { text-align:center;
   margin-top: 60px;
   /*margin-left: 240px;*/
   font-size: 20px;
   line-height: 49px; 
   background: #085C98;
 
-  display:inline-block;  
+  display:inline-flex;  
 }
 #hero-banner h2 b{
 color:whitesmoke;
@@ -291,7 +291,6 @@ color:whitesmoke;
 margin-bottom:20px;
 line-height:35px; 
 background:#085C98;
-display:inline-block;
 }
 #hero-banner a{
 width: 150px;
