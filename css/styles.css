@@ -19,7 +19,7 @@ h6 {
   font-family: 'Raleway', sans-serif;
  
 }
-h1{ background: rgb(167, 172, 170);
+h1{ background:url("../images/banner/navback.jpg");
 display: inline-block;}
 /*.container{display:grid;
 grid-template-columns: repeat(auto-fit,minmax(300px,1fr));}*/
@@ -143,9 +143,10 @@ text-transform: uppercase;
 *******Header******
 **************************/
 #main-nav.navbar-default {
+	background:url("../images/banner/navback.jpg")
 }
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
-background: rgb(12, 4, 4);
+background: url("../images/banner/navback.jpg");
 color: #FFFFFF;
 }
 .navbar.navbar-default {
@@ -272,20 +273,20 @@ text-align: center;
 #hero-banner h2 {
   margin-top: 60px;
   /*margin-left: 240px;*/
-  font-size: 39px;
+  font-size: 20px;
   line-height: 49px; 
   background: #085C98;
 
   display:inline-block;  
 }
 #hero-banner h2 b{
-color:#F9690E;
+color:whitesmoke;
 }
 
 
 #hero-banner p { 
-  font-size: 22px;
-  color:#e7ebec ;
+  font-size: 15px;
+  color:whitesmoke;
   /*margin-left: 340px;*/
 margin-bottom:20px;
 line-height:35px; 
@@ -332,6 +333,8 @@ color: #FFF;
   text-align: left;
   padding-bottom: 20px;
 }
+#maintop h1{
+color:whitesmoke;}
 #maintop p{
   font-size: medium;
   font-weight:normal;
@@ -372,6 +375,8 @@ padding-top: 8px;}
   text-align: left;
   padding-bottom: 20px;
 }
+#disorders h1{
+color:whitesmoke;}
 #solutions p{margin-left: 15px ;
   padding-top: 15px;
   font-size: medium;
@@ -395,6 +400,8 @@ padding-top: 8px;}
   text-align: left;
   padding-bottom: 20px;
 }
+#solutions h1{
+color:whitesmoke;}
 #blogs p{margin-left: 15px ;
   padding-top: 15px;
   font-size: medium;
@@ -418,6 +425,8 @@ margin-top: 30px;}
   text-align: left;
   padding-bottom: 20px;
 }
+#blogs h1{
+color:whitesmoke;}
 #blogs a:hover{background: lightseagreen;
 
 color:white;}
@@ -448,6 +457,8 @@ color:honeydew;
 font-size: medium;
 margin-left: 15px;
 }
+#about-us h1{
+color:whitesmoke;}
 #contact-us {
   background:black;
   color: whitesmoke;
